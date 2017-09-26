@@ -134,19 +134,19 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="DotNetty.Common">
-      <HintPath>..\..\src\DotNetty.Common\bin\$(Configuration)\netstandard1.3\DotNetty.Common.dll</HintPath>
+      <HintPath>..\..\src\DotNetty.Common\bin\$(Configuration)\netstandard2.0\DotNetty.Common.dll</HintPath>
     </Reference>
     <Reference Include="DotNetty.Buffers">
-      <HintPath>..\..\src\DotNetty.Transport\bin\Debug\netstandard1.3\DotNetty.Buffers.dll</HintPath>
+      <HintPath>..\..\src\DotNetty.Transport\bin\Debug\netstandard2.0\DotNetty.Buffers.dll</HintPath>
     </Reference>
     <Reference Include="DotNetty.Codecs">
-      <HintPath>..\..\src\DotNetty.Codecs\bin\$(Configuration)\netstandard1.3\DotNetty.Codecs.dll</HintPath>
+      <HintPath>..\..\src\DotNetty.Codecs\bin\$(Configuration)\netstandard2.0\DotNetty.Codecs.dll</HintPath>
     </Reference>
     <Reference Include="DotNetty.Transport">
-      <HintPath>..\..\src\DotNetty.Transport\bin\$(Configuration)\netstandard1.3\DotNetty.Transport.dll</HintPath>
+      <HintPath>..\..\src\DotNetty.Transport\bin\$(Configuration)\netstandard2.0\DotNetty.Transport.dll</HintPath>
     </Reference>
     <Reference Include="DotNetty.Handlers">
-      <HintPath>..\..\src\DotNetty.Handlers\bin\$(Configuration)\netstandard1.3\DotNetty.Handlers.dll</HintPath>
+      <HintPath>..\..\src\DotNetty.Handlers\bin\$(Configuration)\netstandard2.0\DotNetty.Handlers.dll</HintPath>
     </Reference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

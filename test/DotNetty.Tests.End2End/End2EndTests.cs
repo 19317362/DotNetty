@@ -318,8 +318,8 @@ namespace DotNetty.Tests.End2End
                     }
                     finally
                     {
-                        bossGroup.ShutdownGracefullyAsync();
-                        workerGroup.ShutdownGracefullyAsync();
+                        await bossGroup.ShutdownGracefullyAsync();
+                        await workerGroup.ShutdownGracefullyAsync();
                     }
                 };
             }
@@ -327,8 +327,8 @@ namespace DotNetty.Tests.End2End
             {
                 if (!started)
                 {
-                    bossGroup.ShutdownGracefullyAsync();
-                    workerGroup.ShutdownGracefullyAsync();
+                    await bossGroup.ShutdownGracefullyAsync();
+                    await workerGroup.ShutdownGracefullyAsync();
                 }
             }
         }
